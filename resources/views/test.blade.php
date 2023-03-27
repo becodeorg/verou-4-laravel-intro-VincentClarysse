@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <a href="{{route('test')}}">link</a>
-    <h1>Hello World</h1>
+    <p>This is the test</p>
 </body>
 </html>
