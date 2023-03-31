@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <p>This is the test</p>
+    @include('layout.header')
+    
+    @yield('content')
+
+    @include('layout.footer')
 </body>
 </html>

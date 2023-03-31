@@ -14,7 +14,7 @@ class HomeController extends BaseController
         return view("home");
     }
 
-    public function test() {
-        return view("test"); 
+    public function article_1() {
+        return view("article_1"); 
     }
 }

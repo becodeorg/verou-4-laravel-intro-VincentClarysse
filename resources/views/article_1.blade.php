@@ -1,7 +1,8 @@
+
 @extends('layout.layout')
 
 @section('content')
 
-    <h1>Hello World</h1>
+<h1>article 1</h1>
 
 @endsection
