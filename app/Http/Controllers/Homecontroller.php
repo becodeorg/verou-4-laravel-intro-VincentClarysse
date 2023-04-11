@@ -17,4 +17,8 @@ class HomeController extends BaseController
     public function article_1() {
         return view("article_1"); 
     }
+
+    public function form() {
+        return view("form"); 
+    }
 }

@@ -18,3 +18,5 @@ use App\Http\Controllers\HomeController;
 Route::get('/',[HomeController::class, 'home'])->name('home');
 
 Route::get('article_1',[HomeController::class, 'article_1'])->name('article_1');
+
+Route::post('form',[HomeController::class, 'form'])->name('form');
