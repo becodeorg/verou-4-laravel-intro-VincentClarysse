@@ -8,6 +8,7 @@
 @section('content')
 
 <h1>form</h1>
+
 <h2>Welcome {{$fname}} {{$lname}} </h2>
 
 @endsection
