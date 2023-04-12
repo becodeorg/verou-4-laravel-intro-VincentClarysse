@@ -7,8 +7,8 @@
 
 @foreach($articles as $article)
 
-<a href="{{route('articles')}}"><h3>{{$article->title}}</h3></a> 
-<br>
+<a href="articles/{{$article->title}}"><h3>{{$article->title}}</h3></a> 
+
 <p>{{$article->body}}</p>
 
 @endforeach

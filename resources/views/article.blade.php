@@ -2,8 +2,6 @@
 
 @section('content')
 
-<h1>form</h1>
-
-<h2>{{$request["Title"]}}</h2>
+<h1>This is a detailed page of {{$slug}}</h1>
 
 @endsection

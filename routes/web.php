@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\articleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,8 @@ use App\Http\Controllers\HomeController;
 Route::get('/',[HomeController::class, 'home'])->name('home');
 
 Route::get('articles',[HomeController::class, 'articles'])->name('articles');
+
+Route::get('articles/{article}',[articlecontroller::class, 'detail']);
 
 Route::get('create',[HomeController::class, 'create'])->name('create');
 
