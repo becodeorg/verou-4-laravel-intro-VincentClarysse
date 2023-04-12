@@ -4,6 +4,6 @@
 
     <h1>Hello World</h1>
 
-    <p>lorem500</p>
+    <p>Create your articles today</p>
 
 @endsection
