@@ -6,4 +6,5 @@
 
     <p>Create your articles today</p>
 
+
 @endsection

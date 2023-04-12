@@ -15,8 +15,11 @@ class HomeController extends BaseController
         return view("home");
     }
 
-    public function article_1() {
-        return view("article_1"); 
+    public function articles() {
+        return view("articles",[
+            "articles" => Article::all()
+        ]
+    ); 
     }
 
     public function create(){
