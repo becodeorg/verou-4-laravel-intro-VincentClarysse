@@ -1,6 +1,5 @@
 <?php
-    $fname = $_POST["fname"];
-    $lname = $_POST["lname"];
+use App\Http\Controllers\formcontroller;
 ?>
 
 @extends('layout.layout')
@@ -9,6 +8,6 @@
 
 <h1>form</h1>
 
-<h2>Welcome {{$fname}} {{$lname}} </h2>
+<h2>{{$request["Title"]}}</h2>
 
 @endsection
