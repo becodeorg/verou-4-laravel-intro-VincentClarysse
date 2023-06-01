@@ -7,10 +7,11 @@
 
 @foreach($articles as $article)
 
-<a href="articles/{{$article->title}}"><h3>{{$article->title}}</h3></a> 
-
-<p>{{$article->body}}</p>
-
+<div class="article_container">
+    <a href="articles/{{$article->title}}"><h3>{{$article->title}}</h3></a> 
+    <br>
+    <p>{{$article->body}}</p>
+</div>
 @endforeach
 
 @endsection
