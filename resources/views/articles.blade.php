@@ -9,7 +9,7 @@
 
 <div class="article_container">
     <a href="articles/{{$article->title}}"><h3>{{$article->title}}</h3></a> 
-    <br>
+    <br> ff
     <p>{{$article->body}}</p>
 </div>
 @endforeach
